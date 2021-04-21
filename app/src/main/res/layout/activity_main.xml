@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/firsttextview"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:background="@color/teal_200"
+        android:gravity="right"
+
+        tools:ignore="RtlHardcoded" />
+    <TextView
+        android:id="@+id/secondtextview"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:textSize="35sp"
+        android:background="@color/purple_700"
+        android:gravity="right"
+        android:text="@string/zero"
+        tools:ignore="RtlHardcoded" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="3">
+        <Button
+            android:id="@+id/aboutbutton"
+            android:onClick="AboutFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/AboutText"
+            tools:ignore="ButtonStyle,NestedWeights" />
+        <Button
+            android:id="@+id/clearbutton"
+            android:onClick="ClearFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/ClearText2"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/backbutton"
+            android:onClick="DeleteFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Back"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/sevenbutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/seven"
+            tools:ignore="ButtonStyle,NestedWeights" />
+        <Button
+            android:id="@+id/eightbutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/eight"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/ninebutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/nine"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/divisionbutton"
+            android:onClick="LogicFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Division"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/fourbutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/four"
+            tools:ignore="ButtonStyle,NestedWeights" />
+        <Button
+            android:id="@+id/fivebutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/five"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/sixbutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/six"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/multiplicationbutton"
+            android:onClick="LogicFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Multiplication"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/onebutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/one"
+            tools:ignore="ButtonStyle,NestedWeights" />
+        <Button
+            android:id="@+id/twobutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/two"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/threebutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/three"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/subtractionbutton"
+            android:onClick="LogicFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Subtraction"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/pointbutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/point"
+            tools:ignore="ButtonStyle,NestedWeights" />
+        <Button
+            android:id="@+id/zerobutton"
+            android:onClick="DigitFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/zero"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/equalbutton"
+            android:onClick="ResultFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Equal"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/addbutton"
+            android:onClick="LogicFunction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="@string/Addition"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="AboutText">About</string>
+    <string name="ClearText2">CE</string>
+    <string name="Back">DEL</string>
+    <string name="Division">/</string>
+    <string name="Percentage">%</string>
+    <string name="Multiplication">x</string>
+    <string name="Subtraction">-</string>
+    <string name="Addition">+</string>
+    <string name="Equal">=</string>
+    <string name="sign">+/-</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="point">.</string>
+    <string name="message1">Created By</string>
+    <string name="devname">Name: Rishad Amin Pulok</string>
+    <string name="devID">Mail: r.pulok98@gmail.com</string>
+    <string name="devsec">Section: PC-A</string>
+    <string name="reverse">Go Back</string>
+
+</resources>
